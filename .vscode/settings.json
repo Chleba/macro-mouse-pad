@@ -1,0 +1,20 @@
+{
+    "python.linting.enabled": true,
+    "python.analysis.typeshedPaths": [
+        ".vscode/Pico-W-Stub"
+    ],
+    "python.languageServer": "Pylance",
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.extraPaths": [
+        "",
+        "/home/chleba/.vscode-oss/extensions/joedevivo.vscode-circuitpython-0.1.19-universal/stubs",
+        "/home/chleba/.config/Code - OSS/User/globalStorage/joedevivo.vscode-circuitpython/bundle/20230204/adafruit-circuitpython-bundle-py-20230204/lib"
+    ],
+    "picowgo.syncFolder": "",
+    "picowgo.openOnStart": true,
+    "python.linting.pylintEnabled": false,
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportMissingModuleSource": "none"
+    },
+    "circuitpython.board.version": "8.0.0-rc.1"
+}
