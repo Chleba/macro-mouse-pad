@@ -14,7 +14,8 @@
     "picowgo.openOnStart": true,
     "python.linting.pylintEnabled": false,
     "python.analysis.diagnosticSeverityOverrides": {
-        "reportMissingModuleSource": "none"
+        "reportMissingModuleSource": "none",
+        "reportShadowedImports": "none"
     },
     "circuitpython.board.version": "8.0.0-rc.1"
 }
